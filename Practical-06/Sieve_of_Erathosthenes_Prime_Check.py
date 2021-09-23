@@ -1,4 +1,10 @@
 import math
+
+'''
+This has a better Time Complexity, and needs >O(sqrt(n)) extra space.
+Overall it has a better Asymptotic Complexity than the SQRT approach.
+Alternate methods can be Sieve of Atkin, which has an even lower Asymptotic Complexity than Sieve of Erathosthenes (theoretically).
+'''
 def SieveOfEratosthenes(n):
       
     # Create a boolean array "prime[0..n]" and initialize all entries it as true
